@@ -1,0 +1,38 @@
+{
+  "name": "tobono/acorn-eloquent",
+  "type": "package",
+  "license": "MIT",
+  "description": "WordPress database to Eloquent models",
+  "authors": [
+    {
+      "name": "Reza Bahreynipour",
+      "email": "bahreynipour@gmail.com"
+    }
+  ],
+  "keywords": [
+    "wordpress",
+    "sage",
+    "acorn",
+    "model",
+    "eloquent"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Tobono\\Eloquent\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "illuminate/auth": "^11.0",
+    "jgrossi/corcel": "^8.0"
+  },
+  "require-dev": {
+  },
+  "extra": {
+    "acorn": {
+      "providers": [
+        "Tobono\\Eloquent\\Providers\\PackageServiceProvider"
+      ]
+    }
+  }
+}
