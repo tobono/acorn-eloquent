@@ -30,7 +30,7 @@
 	"require": {
 		"php": ">=8.0",
 		"illuminate/auth": "^12.0",
-		"jgrossi/corcel": "^8.0"
+		"tobono/corcel": "^8.0"
 	},
 	"require-dev": {
 	},
