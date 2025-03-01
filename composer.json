@@ -30,7 +30,7 @@
 	"require": {
 		"php": ">=8.0",
 		"illuminate/auth": "^12.0",
-		"tobono/corcel": "dev-main"
+    "tobono/corcel": "dev-8.0"
 	},
 	"require-dev": {
 	},
